@@ -1,0 +1,97 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://exmo.inrialpes.fr/align/ext/1.0/method
+<http://exmo.inrialpes.fr/align/ext/1.0/method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://exmo.inrialpes.fr/align/ext/1.0/time
+<http://exmo.inrialpes.fr/align/ext/1.0/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#formalism
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#formalism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#level
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#location
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#name
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto1
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto2
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#type
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#uri
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#xml
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#xml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Alignment
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Alignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Formalism
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Formalism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Ontology
+<http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/sosa/
+<http://www.w3.org/ns/sosa/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/ns/sosa/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Ontology> .
+<http://www.w3.org/ns/sosa/> <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#formalism> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Formalism> .
+_:genid2 <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#name> "OWL2.0" .
+_:genid2 <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#uri> "http://www.w3.org/2002/07/owl#" .
+<http://www.w3.org/ns/sosa/> <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#location> "file:/Users/tinaboroukhian/Desktop/Desktop/ontologies_files/sosa.owl" .
+# 
+# https://w3id.org/def/openadr
+<https://w3id.org/def/openadr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/openadr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Ontology> .
+<https://w3id.org/def/openadr> <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#formalism> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Formalism> .
+_:genid3 <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#name> "OWL2.0" .
+_:genid3 <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#uri> "http://www.w3.org/2002/07/owl#" .
+<https://w3id.org/def/openadr> <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#location> "file:/Users/tinaboroukhian/Desktop/Desktop/ontologies_files/openadr.rdf" .
+# 
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Alignment> .
+_:genid4 <http://exmo.inrialpes.fr/align/ext/1.0/method> "fr.inrialpes.exmo.align.impl.method.StringDistAlignment" .
+_:genid4 <http://exmo.inrialpes.fr/align/ext/1.0/time> "95" .
+_:genid4 <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#level> "0" .
+_:genid4 <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto1> <https://w3id.org/def/openadr> .
+_:genid4 <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto2> <http://www.w3.org/ns/sosa/> .
+_:genid4 <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#type> "?*" .
+_:genid4 <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#xml> "yes" .
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -1,0 +1,106 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Formalism" ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#name" : [ {
+    "@value" : "OWL2.0"
+  } ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#uri" : [ {
+    "@value" : "http://www.w3.org/2002/07/owl#"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Formalism" ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#name" : [ {
+    "@value" : "OWL2.0"
+  } ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#uri" : [ {
+    "@value" : "http://www.w3.org/2002/07/owl#"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Alignment" ],
+  "http://exmo.inrialpes.fr/align/ext/1.0/method" : [ {
+    "@value" : "fr.inrialpes.exmo.align.impl.method.StringDistAlignment"
+  } ],
+  "http://exmo.inrialpes.fr/align/ext/1.0/time" : [ {
+    "@value" : "95"
+  } ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#level" : [ {
+    "@value" : "0"
+  } ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto1" : [ {
+    "@id" : "https://w3id.org/def/openadr"
+  } ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto2" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#type" : [ {
+    "@value" : "?*"
+  } ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#xml" : [ {
+    "@value" : "yes"
+  } ]
+}, {
+  "@id" : "http://exmo.inrialpes.fr/align/ext/1.0/method",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://exmo.inrialpes.fr/align/ext/1.0/time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Alignment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Formalism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#formalism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#uri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#xml",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Ontology" ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#formalism" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#location" : [ {
+    "@value" : "file:/Users/tinaboroukhian/Desktop/Desktop/ontologies_files/sosa.owl"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/openadr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Ontology" ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#formalism" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#location" : [ {
+    "@value" : "file:/Users/tinaboroukhian/Desktop/Desktop/ontologies_files/openadr.rdf"
+  } ]
+} ]
