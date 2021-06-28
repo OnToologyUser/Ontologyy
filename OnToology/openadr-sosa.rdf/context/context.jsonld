@@ -1,0 +1,25 @@
+{
+  "@context" : {
+    "onto2" : {
+      "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto2"
+    },
+    "onto1" : {
+      "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto1"
+    },
+    "location" : {
+      "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#location"
+    },
+    "formalism" : {
+      "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#formalism"
+    },
+    "Alignment" : {
+      "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Alignment"
+    },
+    "Ontology" : {
+      "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Ontology"
+    },
+    "Formalism" : {
+      "@id" : "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Formalism"
+    }
+  }
+}
